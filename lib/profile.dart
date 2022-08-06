@@ -28,7 +28,7 @@ class Profile extends StatelessWidget {
               ),
               Container(
                 width: 300,
-                height: 150,
+                height: 100,
                 margin: EdgeInsets.all(10),
                 decoration: BoxDecoration(
                     gradient:
@@ -36,7 +36,7 @@ class Profile extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10)),
                 child: Center(
                   child: Text(
-                    "John Doe",
+                    "Hanztt",
                     style: TextStyle(
                         color: Colors.white,
                         fontFamily: 'DancingScript',
@@ -44,6 +44,29 @@ class Profile extends StatelessWidget {
                   ),
                 ),
               ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    height: 50,
+                    width: 50,
+                    color: Colors.amber,
+                    margin: EdgeInsets.all(20),
+                  ),
+                  Container(
+                    height: 50,
+                    width: 50,
+                    color: Colors.amber,
+                    margin: EdgeInsets.all(20),
+                  ),
+                  Container(
+                    height: 50,
+                    width: 50,
+                    color: Colors.amber,
+                    margin: EdgeInsets.all(20),
+                  ),
+                ],
+              )
             ],
           )
         ],
